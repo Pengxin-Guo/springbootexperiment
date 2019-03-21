@@ -30,7 +30,7 @@ public class UserRepositoryTest {
 
     @Test
     public void addAddressTest() {
-        Address address = userRepository.addAddress(new Address("999"), 2);
+        Address address = userRepository.addAddress(new Address("888"), 4);
         log.debug("{}", address.getDetail());
     }
 
