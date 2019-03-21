@@ -1,14 +1,22 @@
 package com.example.springbootexperiment02.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@Entity
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String detail;
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)//设置级联操作
     private User user;
     @Column(columnDefinition = "TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP",
             insertable = false
