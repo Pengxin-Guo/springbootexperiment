@@ -23,6 +23,8 @@ public class MyAspect {
 
     @Around("@within(myInterceptor) || @annotation(myInterceptor)")
     public Object interecptorTarget(ProceedingJoinPoint joinpoint, MyInterceptor myInterceptor) throws Throwable {
+        /*
+        // 基于lambda实现
         Optional.ofNullable(myInterceptor)
                 .or(() -> {
                     MyInterceptor m =
@@ -34,6 +36,14 @@ public class MyAspect {
                         log.debug("当前执行方法的权限：{}", t);
                     }
                 });
+        */
+        // 基于普通方法实现
+        if (myInterceptor == null) {
+            myInterceptor = joinpoint.getTarget().getClass().getAnnotation(MyInterceptor.class);
+        }
+        for (MyInterceptor.AuthorityType t : myInterceptor.value()) {
+            log.debug("当前执行方法的权限：{}", t);
+        }
         return joinpoint.proceed();
     }
 }
