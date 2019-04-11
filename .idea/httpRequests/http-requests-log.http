@@ -1,3 +1,9 @@
+GET http://localhost:8080/api/index
+
+<> 2019-04-11T090958.200.json
+
+###
+
 POST http://localhost:8080/api/users
 Content-Type: application/json
 
