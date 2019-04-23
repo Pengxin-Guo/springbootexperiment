@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-experiment" />
         <module name="springboot-experiment-01" />
         <module name="springboot-experiment-02" />
         <module name="springboot-experiment-03" />
