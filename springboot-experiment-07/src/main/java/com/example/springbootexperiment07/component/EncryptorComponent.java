@@ -26,7 +26,7 @@ public class EncryptorComponent {
         try {
             String json = mapper.writeValueAsString(payload); // 将Map对象序列化为json字符串
             return Encryptors.text(secretKey, salt).encrypt(json); // 加密
-        }catch (JsonProcessingException e) {
+        } catch (JsonProcessingException e) {
         }
         return null;
     }
