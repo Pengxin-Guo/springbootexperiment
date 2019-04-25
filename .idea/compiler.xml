@@ -13,6 +13,7 @@
         <module name="springboot-experiment-04" />
         <module name="springboot-experiment-05" />
         <module name="springboot-experiment-06" />
+        <module name="springboot-experiment-07" />
         <module name="springbootexperiment" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="springboot-experiment-04" options="-parameters" />
       <module name="springboot-experiment-05" options="-parameters" />
       <module name="springboot-experiment-06" options="-parameters" />
+      <module name="springboot-experiment-07" options="-parameters" />
     </option>
   </component>
 </project>
