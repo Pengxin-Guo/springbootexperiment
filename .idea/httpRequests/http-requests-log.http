@@ -1,3 +1,275 @@
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-25T110854.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110849.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "xxx",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110845.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "xxx",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110827.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "xxx",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110812.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "类型转换错误",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110659.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "类型转换错误",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110337.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110325.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "类型转换错误",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110308.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110301.400.json
+
+###
+
+POST http://localhost:8080/api/Users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110208.404.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110137.404.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T110054.404.json
+
+###
+
+GET http://localhost:8080/api/users/a
+
+###
+
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-25T105253.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T104724.404.json
+
+###
+
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-25T104658.400.json
+
+###
+
+GET http://localhost:8080/api/users/aaaaa
+
+###
+
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-25T104648.400.json
+
+###
+
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-25T104623.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": "类型转换错误",
+  "email": "abc.12"
+}
+
+<> 2019-04-25T104619.404.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+<> 2019-04-25T104604.404.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "as",
+  "password": "1234",
+  "age": 16,
+  "email": "abc.12"
+}
+
+###
+
 GET http://localhost:8080/api/index
 
 <> 2019-04-23T090612.200.json
