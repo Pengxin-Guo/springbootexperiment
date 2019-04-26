@@ -1,3 +1,97 @@
+GET http://localhost:8080/api/index
+Authorization: f1cdaceabf7561771aa5b6d54e401933abaa06a879aca4601ead163a0549f6d7
+
+<> 2019-04-26T102529.200.json
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "123456"
+}
+
+<> 2019-04-26T102504.200.json
+
+###
+
+GET http://localhost:8080/api/index
+Authorization: 42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-04-26T102454.200.json
+
+###
+
+GET http://localhost:8080/api/index
+Authorization: 2ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-04-26T102449.401.json
+
+###
+
+GET http://localhost:8080/api/index
+Authorization: 42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-04-26T102444.200.json
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "12345"
+}
+
+<> 2019-04-26T102434.401.json
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "BO",
+  "password": "123456"
+}
+
+<> 2019-04-26T102416.200.json
+
+###
+
 GET http://localhost:8080/api/users/a
 
 <> 2019-04-25T110854.400.json
