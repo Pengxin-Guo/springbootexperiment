@@ -7,10 +7,10 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
-@Entity
 public class UserAddress {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
